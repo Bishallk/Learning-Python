@@ -93,11 +93,11 @@ def myfunction(a, b, *args, **kwargs):
     print("args:", args) # args: (3, 4)
     print("kwargs:", kwargs) # kwargs: {'x': 5, 'y': 6}
 
-myfunction(1, 2, 3, 4, x=5, y=6) ## calling functions and passing args and keyword args
+myfunction(1, 2,x=5, y=6) ## calling functions and passing args and keyword args
 
 
 #* yield keyword
-#*  the yield keyword is used in a function to turn it into a generator.A generator is a special type of iterable that generates values one at a time as they are needed, rather than all at once.
+#*  the yield keyword is used in a function to turn it into a generat 3, 4, or.A generator is a special type of iterable that generates values one at a time as they are needed, rather than all at once.
 
 def generator():
     i=1
