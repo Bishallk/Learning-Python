@@ -83,6 +83,10 @@ c1.start()
 #------- del keyword
 #* we can use del keyword to delete object propertied or object itself
 #* For Eg.
+class Account:
+    def __init__(self,no,bal):
+        self.no=no
+        self.bal=bal
 acc2=Account("A1002",4000)
 print(acc2.bal)
 del acc2.bal #delete attribute
