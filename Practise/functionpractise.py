@@ -40,7 +40,7 @@ def get_sum(n):
     
 print(get_sum(20))
 
-#- write a fecursive function otoprint all elements in a list. use list and index as params
+#- write a recursive function otoprint all elements in a list. use list and index as params
 
 def get_list(list,index=0):
     if(index==len(list)):
@@ -51,3 +51,23 @@ def get_list(list,index=0):
 
 fruits=["mango","orange","Banana","pineapple"]
 get_list(fruits)
+
+
+
+
+def fn(n):
+    
+    fibonacci=[]
+    a,b=0,1
+    for _ in range(n):
+        fibonacci.append(a)
+        a,b=b,a+b
+
+    print(fibonacci)
+
+fn(0)
+
+
+print(range(5))
+for i in range(5):
+    print(i)
