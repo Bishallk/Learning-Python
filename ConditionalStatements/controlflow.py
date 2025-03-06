@@ -26,10 +26,8 @@ elif day==7:
     print("Today is Saturday")
 else:
     print("Choose Another Day")
-#- nested if else statement
     
 #- pass statement
+def hello():
+    pass 
 
-#- or, and not operator
-
-#-in, not in keyword
